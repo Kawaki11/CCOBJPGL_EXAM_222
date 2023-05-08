@@ -1,6 +1,6 @@
 package Tourists;
 
-import Locations.Aklan;
+import Locations.Boracay;
 import Locations.Locations;
 import Locations.Antipolo;
 import Locations.Bataan;
@@ -10,11 +10,11 @@ import Locations.Pangasinan;
 
 public interface Tourist {
 
-    int budget = 2000;
+    int budget = 1000;
 
     void visit();
 
-    void visit(Aklan aklan);
+    void visit(Boracay boracay);
 
     void visit(Antipolo antipolo);
     
