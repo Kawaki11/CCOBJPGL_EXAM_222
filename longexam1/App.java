@@ -5,7 +5,7 @@ import Tourists.*;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Locations Aklan = new Aklan();
+        Locations Boracay = new Boracay();
         Locations Antipolo = new Antipolo();
         Locations Bataan = new Bataan();
         Locations Bohol = new Bohol();
@@ -14,7 +14,7 @@ public class App {
 
         Tourist Me = new Me();
 
-        Aklan.accept(Me);
+        Boracay.accept(Me);
         Antipolo.accept(Me);
         Bataan.accept(Me);
         Bohol.accept(Me);
