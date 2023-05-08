@@ -5,19 +5,19 @@ import Locations.*;
 
 public class Me implements Tourist {
 
-    static int budget = 2000;
+    static int budget = 1000;
     
 
     public void visit() {
         System.out.print("Enjoying my stay");
     }
 
-    public void visit(Aklan aklan) {
+    public void visit(Boracay boracay) {
         System.out.println("ang budget ko ay " + getBudget());
 
-        if ( budget > aklan.airFare  ){
-            System.out.println("lezg Aklan" );
-            budget -= aklan.airFare;
+        if ( budget > boracay.airFare  ){
+            System.out.println("lezggg Boracay" );
+            budget -= boracay.airFare;
             
         }else{
             System.out.println("omai ala budget");
